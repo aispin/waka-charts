@@ -2,6 +2,7 @@
   "name": "@xsin/waka-charts",
   "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.7.0",
   "description": "Generate svg charts from wakatime data",
   "author": {
     "name": "Levin Wong",
