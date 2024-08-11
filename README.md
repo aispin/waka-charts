@@ -23,6 +23,12 @@ A bot that Updating your [WakaTime](https://wakatime.com/) stats automatically i
 
 Build with Github Action and [WakaTime API](https://wakatime.com/developers#stats), inspired by [dvjn/wakatime-charts](https://github.com/dvjn/wakatime-charts) but totally rewritten in Typescript.
 
+## Project Status
+
+[![codecov](https://codecov.io/gh/mamboer/waka-charts/graph/badge.svg?token=XGKUS6DRSZ)](https://codecov.io/gh/mamboer/waka-charts)
+![Build Status](https://github.com/mamboer/waka-charts/actions/workflows/test.yml/badge.svg)
+![License](https://img.shields.io/github/license/mamboer/waka-charts)
+
 ## 🚀 How to Use
 
 ### Set it up in your repository ⚙️
