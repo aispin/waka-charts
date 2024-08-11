@@ -1,10 +1,6 @@
 <div align="center">
 
-![wakatime svg charts](https://socialify.git.ci/mamboer/waka-charts/image?description=1&font=Inter&owner=1&pattern=Charlie%20Brown&theme=Light 'wakatime svg charts')
-
-![GitHub Repo stars](https://img.shields.io/github/stars/mamboer/waka-charts?color=%23dfb317&style=for-the-badge 'Github Repo stars')
-![GitHub forks](https://img.shields.io/github/forks/mamboer/waka-charts?color=%2397ca00&style=for-the-badge 'Github forks')
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/mamboer/waka-charts?color=%23fe7d37&label=PULLS&style=for-the-badge 'Github pull requests')
+![waka-charts](https://socialify.git.ci/mamboer/waka-charts/image?description=1&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fmamboer%2Fwaka-charts%2Fmain%2Flogo.svg&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
 ---
 
@@ -47,7 +43,7 @@ Build with Github Action and [WakaTime API](https://wakatime.com/developers#stat
              # Required - Your WakaTime API Key
              WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
              # Optional - GitHub access token, Only required if using the action in repository other than profile
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
              # Optional - Limit the number of languages to show in the chart
              WAKATIME_LANG_LIMIT: 5
              # Optional - Width of the chart
@@ -76,7 +72,7 @@ Build with Github Action and [WakaTime API](https://wakatime.com/developers#stat
              IMAGES_FOLDER: images
    ```
 
-   **Notice**: If you are adding this action to your profile repository (`<username>/<username>`), the `GITHUB_TOKEN` is optional, or add your [Github API Token](https://github.com/settings/tokens) in your repository secrets with the name `GITHUB_TOKEN`.
+   **Notice**: If you are adding this action to your profile repository (`<username>/<username>`), the `GITHUB_TOKEN` is optional, or add your [Github API Token](https://github.com/settings/tokens) in your repository secrets with the name `GH_TOKEN`.
 
    You can view the [workflow definition file](action.yml) in this repository for reference.
 
