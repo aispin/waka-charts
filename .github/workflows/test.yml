@@ -39,7 +39,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_MESSAGE: "✅ Test by waka-chart-action"
-          BRANCH_NAME: "test"
+          BRANCH_NAME: "gh-pages"
           IMAGES_FOLDER: "generated"
           GIT_USER_EMAIL: "mamboer@gmail.com"
           GIT_USER_NAME: "Levin Wong"

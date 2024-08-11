@@ -1,13 +1,21 @@
-<div align="center">
-
-![waka-charts](https://socialify.git.ci/mamboer/waka-charts/image?description=1&font=Jost&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fmamboer%2Fwaka-charts%2Fmain%2Flogo.svg&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
+![waka-charts](https://socialify.git.ci/mamboer/waka-charts/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fmamboer%2Fwaka-charts%2Fmain%2Flogo.svg&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Auto)
 
 ---
 
-![Weekly Language Stats](https://raw.githubusercontent.com/mamboer/waka-charts/main/images/waka_weekly_lang_stats.svg 'Weekly Language Stats')
-![Weekly Language Stats - Black Mode](https://raw.githubusercontent.com/mamboer/waka-charts/main/images/waka_weekly_lang_stats_black.svg 'Weekly Language Stats')
-
-</div>
+<table style="background: #eeeeee; margin-bottom: 24px">
+  <tr style="background: #212121">
+    <th>Light Mode</th>
+    <th>Dark Mode</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/mamboer/waka-charts/main/images/waka_weekly_lang_stats.svg" alt="Weekly Language Stats" />
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/mamboer/waka-charts/main/images/waka_weekly_lang_stats_black.svg" alt="Weekly Language Stats" />
+    </td>
+  </tr>
+</table>
 
 # 📊 WakaCharts - Your Fancy Code Statistics
 
