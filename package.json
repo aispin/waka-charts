@@ -35,7 +35,7 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.25.0",
+    "@antfu/eslint-config": "^2.25.1",
     "@types/d3": "^7.4.3",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.2.0",
