@@ -40,6 +40,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_MESSAGE: "✅ Test by waka-chart-action"
           BRANCH_NAME: "gh-pages"
-          IMAGES_FOLDER: "generated"
+          IMAGES_FOLDER: "images"
           GIT_USER_EMAIL: "mamboer@gmail.com"
           GIT_USER_NAME: "Levin Wong"
