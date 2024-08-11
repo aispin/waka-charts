@@ -1,0 +1,55 @@
+{
+  "name": "@xsin/waka-charts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Generate svg charts from wakatime data",
+  "author": {
+    "name": "Levin Wong",
+    "url": "https://github.com/mamboer"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "taze": "taze minor -wIr",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "npx simple-git-hooks",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "jsdom": "^24.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.0",
+    "@types/d3": "^7.4.3",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.2.0",
+    "@vitest/coverage-v8": "^2.0.5",
+    "eslint": "^9.9.0",
+    "eslint-plugin-format": "^0.1.2",
+    "globals": "^15.9.0",
+    "lint-staged": "^15.2.8",
+    "pnpm": "^9.7.0",
+    "simple-git-hooks": "^2.11.1",
+    "taze": "^0.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "unbuild": "^2.0.0",
+    "vitest": "^2.0.5"
+  }
+}

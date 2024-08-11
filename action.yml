@@ -1,0 +1,96 @@
+name: WakaTime Stats SVG Charts Generator
+author: Levin Wong
+description: Generate WakaTime Stats SVG Charts For Your Github Profile
+
+inputs:
+  WAKATIME_API_KEY:
+    description: Your WakaTime API Key
+    required: true
+
+  GITHUB_TOKEN:
+    description: GitHub access token
+    required: true
+    default: ${{ github.token }}
+
+  WAKATIME_LANG_LIMIT:
+    description: Limit the number of languages to show in the chart
+    required: false
+    default: 5
+
+  WAKATIME_CHART_WIDTH:
+    description: Width of the chart
+    required: false
+    default: 540
+
+  WAKATIME_CHART_HEIGHT:
+    description: Height of the chart
+    required: false
+    default: 168
+
+  WAKATIME_CHART_BAR_HEIGHT:
+    description: Bar Height of the chart
+    required: false
+    default: 34
+
+  WAKATIME_CHART_MARGIN_X:
+    description: Margin X of the chart
+    required: false
+    default: 12
+
+  WAKATIME_CHART_MARGIN_Y:
+    description: Margin Y of the chart
+    required: false
+    default: 4
+
+  WAKATIME_CHART_PADDING:
+    description: Padding of the chart
+    required: false
+    default: 2
+
+  WAKATIME_CHART_COL_NAME_WIDTH:
+    description: Width of the `name` column
+    required: false
+    default: 100
+
+  WAKATIME_CHART_COL_DURATION_WIDTH:
+    description: Width of the `durations` column
+    required: false
+    default: 110
+
+  WAKATIME_CHART_DYNAMIC_HEIGHT:
+    description: Calculate the height of the chart dynamically based on the number of languages and bar height
+    required: false
+    default: true
+
+  BRANCH_NAME:
+    description: Branch that needs to updated
+    required: false
+    default: main
+
+  COMMIT_MESSAGE:
+    description: Commit message on each generation of charts
+    required: false
+    default: 📊 Update WakaCharts by WakaCharts-Bot
+
+  IMAGES_FOLDER:
+    description: Name of the folder in which generated charts will be shown
+    required: false
+    default: images
+
+  GIT_USER_EMAIL:
+    description: User email for git
+    required: false
+    default: '41898282+github-actions[bot]@users.noreply.github.com'
+
+  GIT_USER_NAME:
+    description: User name for git
+    required: false
+    default: GitHub Actions
+
+runs:
+  using: docker
+  image: Dockerfile
+
+branding:
+  icon: bar-chart-2
+  color: gray-dark

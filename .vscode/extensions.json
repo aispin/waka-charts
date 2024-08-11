@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "antfu.goto-alias",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "kisstkondoros.vscode-gutter-preview",
+    "maptz.regionfolder",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "jock.svg"
+  ]
+}
