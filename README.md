@@ -88,7 +88,7 @@ Build with Github Action and [WakaTime API](https://wakatime.com/developers#stat
 
    **Notice**: The action will run at 00:00 UTC everyday to update the images.
 
-### 🐰 Using teh generated images
+### 🐰 Using the generated images
 
 Link for the generated images is:
 `https://raw.githubusercontent.com/<username>/<repository>/<branch_name>/<images_folder>/<chart_name>.svg`
