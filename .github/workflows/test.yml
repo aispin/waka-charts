@@ -45,4 +45,4 @@ jobs:
           BRANCH_NAME: "gh-pages"
           IMAGES_FOLDER: "images"
           GIT_USER_EMAIL: "mamboer@gmail.com"
-          GIT_USER_NAME: "Levin Wong"
+          GIT_USER_NAME: "Livin AI"
